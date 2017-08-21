@@ -1,7 +1,7 @@
 ---
 title: Scaphoid fracture
 body_part: Hand & Wrist
-description:Fast limited scaphoid MRI protocol for the detection of fracture
+description: Fast limited scaphoid MRI protocol for the detection of fracture
 ---
 This specialist, very fast limited scan can be used as 2nd or 3rd line imaging for suspected scaphoid fracture. It is a single plane, low detail scan which aims to detect bone marrow oedema and show a fracture line.
 
