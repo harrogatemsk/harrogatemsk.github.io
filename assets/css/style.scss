@@ -63,6 +63,13 @@ a:hover { color: darken($primary_color, 20); text-decoration: none; }
 	border-bottom: 0.125em solid rgba(0,0,0,0.1)
 }
 
+blockquote {
+	background-color: fade(#F9BB00, 50);
+	color: rgba(0,0,0,0.75);
+	padding: 0.66em;
+	border-radius: 2px;
+}
+
 #site-description {
 	color: rgba(0,0,0,0.5);
 	line-height: 1.5em;
