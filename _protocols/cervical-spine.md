@@ -1,7 +1,7 @@
 ---
 title: Cervical Spine
 body_part: spine
-
+description: Cervical spine MRI protocols including post-operative, trauma and infection variations
 ---
 
 A limited range, high detail scan covering between the foramen magnum and T2 for general purpose imaging of symptoms suspected to originate in the cervical spine.

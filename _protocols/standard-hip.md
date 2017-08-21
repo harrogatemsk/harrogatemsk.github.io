@@ -1,6 +1,7 @@
 ---
 title: Standard Hip
 body_part: hip
+desciption: Standard hip MRI protocol
 ---
 
 Both hips are included in wide field of view making this a useful general protocol. An additional sagittal oblique sequence gives more detail on the affected hip and distinguishes this protocol from a basic pelvis.

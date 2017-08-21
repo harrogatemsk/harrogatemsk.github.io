@@ -1,6 +1,7 @@
 ---
 title: Standard Knee
 body_part: knee
+description: Standard knee MRI protocol
 
 ---
 A versatile and fast general protocol which can be used for any knee case unless otherwise specified on request.
