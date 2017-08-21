@@ -1,0 +1,26 @@
+---
+layout: default
+---
+
+{% if site.description %}
+<p id="site-description">
+{{ site.description }}
+</p>
+{% endif %}
+
+<section class="row">
+
+{% assign protocols_by_body_part = site.protocols | group_by: "body_part" %}
+
+{% for body_part in protocols_by_body_part %}
+<div class="col col-50">
+	<h2 class="underline">{{ body_part.name | capitalize }}</h2>
+	<ul class="list">
+	{% for item in body_part.items %}
+		<li><a href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a></li>
+	{% endfor %}
+	</ul>
+</div>
+{% endfor %}
+
+</section>
