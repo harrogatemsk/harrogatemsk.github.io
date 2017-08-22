@@ -81,9 +81,10 @@ code {
 header {
 		background-color: $primary_color;
         color: $header_text_color;
+        width: 100%;
     }
-header h1 a { color: $header_text_color; text-decoration: none; }
-header h1 a:hover { color: darken($header_text_color, 25); text-decoration: underline; }
+header a { color: $header_text_color; text-decoration: none; }
+header a:hover { color: darken($header_text_color, 25); text-decoration: underline; }
 @media screen and (max-width: 50em) {
 
 	header h1 {
