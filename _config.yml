@@ -16,7 +16,7 @@
 organisation: Harrogate MSK Radiology
 title: MRI Scanning Protocols
 email: your-email@example.com
-description: > Open Source MRI scan protocols as used in [Harrogate District Hospital Foundation NHS Trust](https://hdft.nhs.uk), Yorkshire. Free to use, modify and share as you please.
+description: >Open Source MRI scan protocols as used in [Harrogate District Hospital Foundation NHS Trust](https://hdft.nhs.uk), Yorkshire. Free to use, modify and share as you please.
 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
