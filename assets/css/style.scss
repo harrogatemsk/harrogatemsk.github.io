@@ -82,7 +82,7 @@ header {
         color: $light_color;
         width: 100%;
     }
-header a { color: $header_text_color; text-decoration: underline; }
+header a { color: $light_color; text-decoration: underline; }
 header h1 a { text-decoration: none; margin-bottom: 0.25em; }
 header a:hover { color: rgba($light_color, 0.75); text-decoration: underline; }
 @media screen and (max-width: 50em) {
