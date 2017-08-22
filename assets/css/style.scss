@@ -4,17 +4,14 @@
 $primary_color: #2d5363;
 $header_text_color: #fafafa;
 
-html {font-size: 1.125em;}
+html {font-size: 10px;}
 
 body {
 	font-family: 'Work Sans', Helvetica, Arial, sans-serif;
-	font-size: 18px;
+	font-size: 1.8em;
 	line-height: 1.45em;
 	color: #333;
-
 	margin: 0;
-
-	border-top: 1em solid $primary_color;
 	background-color: #fafafa;
 }
 
