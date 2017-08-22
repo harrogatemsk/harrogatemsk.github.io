@@ -18,6 +18,10 @@
 			<li> / {{ page.title }}</li>
 	</ul>
 	{% endif %}
+  
+{% if site.description %}
+<p id="site-description">{{ site.description | markdownify }}</p>
+{% endif %}
 </header>
 {{ content }}
   
