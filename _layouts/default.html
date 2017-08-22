@@ -8,8 +8,8 @@
 	<link rel="stylesheet" type="text/css" href="{{ base.url }}/assets/css/style.css">
 </head>
 <body>
-<div class="container">
 <header>
+  <div class="container">
 	<h1 class="leading">{{ site.organisation }}</h1>
 	<h1><a href="{{ base.url }}/">{{ site.title }}</a></h1>
 	{% if page.url != "/" %}
@@ -22,7 +22,10 @@
 {% if site.description %}
 <p id="site-description">{{ site.description | markdownify }}</p>
 {% endif %}
+  </div>
 </header>
+  
+<div class="container">
 {{ content }}
   
 <footer>
