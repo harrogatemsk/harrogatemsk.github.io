@@ -1,6 +1,14 @@
 ---
 layout: default
+published: true
 ---
+	{% if page.url != "/" %}
+	<ul class="breadcrumbs">
+			<li><a href="{{ base.url }}/">Home</a></li>
+			<li> / {{ page.title }}</li>
+	</ul>
+	{% endif %}
+
 <h2>{{ page.title }}</h2>
 	
 <article class="row">
