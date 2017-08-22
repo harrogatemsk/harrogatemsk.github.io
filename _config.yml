@@ -22,7 +22,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: yorkshirerad
 github_username:  danfascia
-TimeZone: British Summer Time
+TimeZone: British Summer Time +1
 
 plugins:
   - jekyll-seo-tag
