@@ -1,6 +1,7 @@
 ---
 title: Wrist arthrogram
-body_part: hadn & wrist
+body_part: hand & wrist
+published: true
 ---
 
 Write about the wrist
