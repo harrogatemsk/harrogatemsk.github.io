@@ -1,8 +1,9 @@
 ---
 ---
 
-$primary_color: #403932;
-$header_text_color: #fafafa;
+$dark_color: #403932;
+$light_color: #fafafa;
+$black: #333;
 
 html {font-size: 10px;}
 
@@ -10,9 +11,9 @@ body {
 	font-family: 'Work Sans', Helvetica, Arial, sans-serif;
 	font-size: 1.8em;
 	line-height: 1.45em;
-	color: #333;
+	color: $black;
 	margin: 0;
-	background-color: #fafafa;
+	background-color: $light_color;
 }
 
 .container {
@@ -46,8 +47,8 @@ h4 {font-size: 1.25em;}
 
 small, .font_small {font-size: 0.8em;}
 
-a { color: $primary_color }
-a:hover { color: darken($primary_color, 20); text-decoration: none; }
+a { color: $dark_color }
+a:hover { color: darken($dark_color, 20); text-decoration: none; }
 
 .leading { 
 	font-size:  1.125em; 
@@ -77,13 +78,13 @@ code {
 }
 
 header {
-		background-color: $primary_color;
-        color: $header_text_color;
+		background-color: $dark_color;
+        color: $light_color;
         width: 100%;
     }
 header a { color: $header_text_color; text-decoration: underline; }
 header h1 a { text-decoration: none; margin-bottom: 0.25em; }
-header a:hover { color: rgba($header_text_color, 0.75); text-decoration: underline; }
+header a:hover { color: rgba($light_color, 0.75); text-decoration: underline; }
 @media screen and (max-width: 50em) {
 
 	header h1 {
@@ -92,7 +93,7 @@ header a:hover { color: rgba($header_text_color, 0.75); text-decoration: underli
 }
 
 footer {
-	border-top: 4px solid $primary_color;
+	border-top: 4px solid $dark_color;
 	padding: 0.25em;
 	margin-top: 2%;
     color: #888;
