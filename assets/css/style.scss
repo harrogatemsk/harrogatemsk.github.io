@@ -59,7 +59,7 @@ a:hover { color: darken($primary_color, 20); text-decoration: none; }
 
 .underline {
 	border-bottom: 0.125em solid rgba(0,0,0,0.1)
-    margin-bottom: -1rem;
+    margin-bottom: 0.25em;;
 }
 
 code {
@@ -82,7 +82,7 @@ header {
         width: 100%;
     }
 header a { color: $header_text_color; text-decoration: underline; }
-header h1 a { text-decoration: none;}
+header h1 a { text-decoration: none; margin-bottom: 0.25em; }
 header a:hover { color: rgba($header_text_color, 0.75); text-decoration: underline; }
 @media screen and (max-width: 50em) {
 
