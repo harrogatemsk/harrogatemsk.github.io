@@ -2,6 +2,7 @@
 ---
 
 $primary_color: #2C75DC;
+$header_text_color: #fafafa;
 
 html {font-size: 1.125em;}
 
@@ -77,8 +78,12 @@ code {
 	max-width: 1000px;
 }
 
-header h1 a { color: #222; text-decoration: none; }
-header h1 a:hover { color: #000; text-decoration: underline; }
+header {
+		background-color: $primary_color;
+        color: $header_text_color;
+    }
+header h1 a { color: $header_text_color; text-decoration: none; }
+header h1 a:hover { color: darken($header_text_color, 25); text-decoration: underline; }
 @media screen and (max-width: 50em) {
 
 	header h1 {
