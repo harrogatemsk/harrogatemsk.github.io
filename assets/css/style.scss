@@ -87,6 +87,7 @@ header h1 a:hover { color: #000; text-decoration: underline; }
 }
 
 footer {
+	display: block;
 	border-top: 2px solid rgba(0,0,0,0.1);
 	padding: 1em 0.25em;
 	margin-top: 2em;
