@@ -28,7 +28,7 @@ body {
 p {margin-bottom: 1.3em;}
 
 h1, h2, h3, h4 {
-  margin: 0.6em 0 1em;
+  margin: 0.6% 0 1%;
   font-weight: 700;
   line-height: 1.2;
 }
@@ -92,10 +92,10 @@ header a:hover { color: rgba($header_text_color, 0.75); text-decoration: underli
 }
 
 footer {
-	display: block;
-	border-top: 4px solid rgba($primary_color,0.5);
+	border-top: 4px solid $primary_color;
 	padding: 0.25em;
 	margin-top: 2em;
+    color: #888;
 }
 
 ul.breadcrumbs { 
@@ -136,7 +136,7 @@ ul.breadcrumbs li { list-style: none; display: inline-block; }
 }
 
 .list {
-	padding: 0.5em 0em;
+	padding: 0.5em 0.25em;
 }
 
 .list li { list-style: none; }
