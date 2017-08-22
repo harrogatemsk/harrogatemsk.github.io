@@ -16,7 +16,9 @@
 organisation: Harrogate MSK Radiology
 title: MRI Scanning Protocols
 email: your-email@example.com
-description: Open Source MRI scan protocols as used in [Harrogate District Hospital Foundation NHS Trust](https://hdft.nhs.uk), Yorkshire. Free to use, modify and share as you please.
+description: Open source MRI scan protocols by [Harrogate Hospital](https://hdft.nhs.uk/) Department of Musculoskeletal Radiology.
+
+Detailed descriptions of use cases, scan preparation, technique and tips for most common musculoskeletal scenarios. These sequences were designed on a Siemens Aera 1.5T but can be used as a starting point on other scanners.
 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
