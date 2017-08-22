@@ -12,14 +12,7 @@
   <div class="container">
 	<h1 class="leading">{{ site.organisation }}</h1>
 	<h1><a href="{{ base.url }}/">{{ site.title }}</a></h1>
-	{% if page.url != "/" %}
-	<ul class="breadcrumbs">
-			<li><a href="{{ base.url }}/">Home</a></li>
-			<li> / {{ page.title }}</li>
-	</ul>
-	{% endif %}
-  
-{% if site.description and page.url == baseurl %}
+{% if site.description and page.url == "/" %}
 <p id="site-description">{{ site.description | markdownify }}</p>
 {% endif %}
   </div>
