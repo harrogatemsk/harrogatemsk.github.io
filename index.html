@@ -2,11 +2,6 @@
 layout: default
 published: true
 ---
-
-{% if site.description %}
-<p id="site-description">{{ site.description | markdownify }}</p>
-{% endif %}
-
 {% assign protocols_by_body_part = site.protocols | group_by: "body_part" %}
 
 
