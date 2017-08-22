@@ -1,7 +1,7 @@
 ---
 ---
 
-$primary_color: #2C75DC;
+$primary_color: #2d5363;
 $header_text_color: #fafafa;
 
 html {font-size: 1.125em;}
@@ -54,7 +54,7 @@ a:hover { color: darken($primary_color, 20); text-decoration: none; }
 
 .leading { 
 	font-size:  1.125em; 
-	color: rgba(0,0,0,0.25);
+	opacity: 0.6;
 	font-weight: normal;
 	text-transform: uppercase;
 	margin-bottom: 0;
@@ -73,7 +73,7 @@ code {
 }
 
 #site-description {
-	color: rgba(0,0,0,0.5);
+	opacity: 0.75;
 	line-height: 1.5em;
 	max-width: 1000px;
 }
@@ -83,8 +83,9 @@ header {
         color: $header_text_color;
         width: 100%;
     }
-header a { color: $header_text_color; text-decoration: none; }
-header a:hover { color: darken($header_text_color, 25); text-decoration: underline; }
+header a { color: $header_text_color; text-decoration: underline; }
+header h1 a { text-decoration: none;}
+header a:hover { color: rgba($header_text_color, 0.75); text-decoration: underline; }
 @media screen and (max-width: 50em) {
 
 	header h1 {
