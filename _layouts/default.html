@@ -19,7 +19,7 @@
 	</ul>
 	{% endif %}
   
-{% if site.description %}
+{% if site.description and page.url == baseurl %}
 <p id="site-description">{{ site.description | markdownify }}</p>
 {% endif %}
   </div>
