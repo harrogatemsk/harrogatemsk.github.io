@@ -58,8 +58,8 @@ a:hover { color: darken($primary_color, 20); text-decoration: none; }
 	}
 
 .underline {
-	border-bottom: 0.125em solid rgba(0,0,0,0.1)
-    margin-bottom: 0.25em;;
+	border-bottom: 0.125em solid rgba(0,0,0,0.1);
+    margin-bottom: 0.25em;
 }
 
 code {
@@ -93,8 +93,8 @@ header a:hover { color: rgba($header_text_color, 0.75); text-decoration: underli
 
 footer {
 	display: block;
-	border-top: 2px solid rgba(0,0,0,0.1);
-	padding: 1em 0.25em;
+	border-top: 4px solid rgba($primary_color,0.5);
+	padding: 0.25em;
 	margin-top: 2em;
 }
 
