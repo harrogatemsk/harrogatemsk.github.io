@@ -28,7 +28,7 @@ Patients must be referred by a **consultant orthopaedic surgeon** with vetting b
 4. Inject only 0.5ml of contrast to confirm position, more risks contaminating approach if not correctly sited
 5. Once spread is observed through wrist joint, swap to Magnevist. It is recommended that 3mL are decanted from the pre-mixed syringe into a small syringe.
 
-** If you use extension tubing, prime and remove air bubbles meticulously before injecting.** For this reason it is not recommended that you use tubing. _Not using_ tubing also gives you the benefit of the "lava lamp sign" to confirm correct intra-articular position before contrast injection.
+**If you use extension tubing, prime and remove air bubbles meticulously before injecting.** For this reason it is not recommended that you use tubing. _Not using_ tubing also gives you the benefit of the "lava lamp sign" to confirm correct intra-articular position before contrast injection.
 
 #### Carpal instability arthrography (fluoroscopy only)
 _Follow the initial steps as above until the first 0.5mL of contrast has been injected into the radiocarpal joint_
