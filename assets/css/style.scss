@@ -137,8 +137,8 @@ ul.breadcrumbs li { list-style: none; display: inline-block; }
 	}
 }
 
-ul { margin-bottom: 2em; }
-ul li { margin-bottom: 1%; }
+ol, ul { margin-bottom: 2em; }
+ol li, ul li { margin-bottom: 1%; }
 
 .list {
 	padding: 0.5em 0.25em;
