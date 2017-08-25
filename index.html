@@ -2,17 +2,17 @@
 layout: default
 published: true
 ---
-{% assign protocols_by_body_part = site.protocols | group_by: "body_part" %}
+{% assign protocols_by_taxonomy = site[site.featured-collection] | group_by: site.taxonomy %}
 
 
-{% for body_part in protocols_by_body_part %}
+{% for p in protocols_by_taxonomy %}
 
 {% assign mod = forloop.index | modulo: 2 %}
 {% if mod != 0 %}<section class="row">{% else %}{% endif %}
 <div class="col col-50">
-	<h2 class="underline">{{ body_part.name | capitalize }}</h2>
+	<h2 class="underline">{{ p.name | capitalize }}</h2>
 	<ul class="list">
-	{% for item in body_part.items %}
+	{% for item in p.items %}
 		<li><a href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a></li>
 	{% endfor %}
 	</ul>

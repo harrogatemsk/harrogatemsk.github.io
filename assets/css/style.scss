@@ -85,7 +85,7 @@ header {
     }
 header a { color: $light_color; text-decoration: underline; }
 header h1 a { text-decoration: none; margin-bottom: 0.25em; }
-header a:hover { color: rgba($light_color, 0.75); text-decoration: underline; }
+header a:hover { color: rgba($light_color, 0.9); text-decoration: underline; }
 @media screen and (max-width: 50em) {
 
 	header h1 {
@@ -141,10 +141,12 @@ ol, ul { margin-bottom: 2em; }
 ol li, ul li { margin-bottom: 1%; }
 
 .list {
-	padding: 0.5em 0.25em;
+	padding: 0.25em;
 }
 
-.list li { list-style: none; }
+.list li { 
+	list-style: none;
+	 }
 
 table { 
 	width: 100%; 

@@ -19,6 +19,13 @@
 </header>
   
 <div class="container">
+	{% if page.url != "/" %}
+	<ul class="breadcrumbs">
+			<li><a href="{{ base.url }}/">{{ page.collection | capitalize }}</a></li>
+			<li> / {{ page.title }}</li>
+	</ul>
+	{% endif %}
+
 {{ content }}
   
 <footer>
