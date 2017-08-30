@@ -54,7 +54,6 @@ prose:
         field:
           element: "text"
           label: "Protocol title"
-    _protocols:
       - name: "body_part"
         field:
           element: "select"
@@ -77,4 +76,3 @@ prose:
               value: "foot & ankle"
             - name: "Other"
               value: "other"
-       
