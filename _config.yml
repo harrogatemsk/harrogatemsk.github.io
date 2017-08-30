@@ -44,3 +44,37 @@ defaults:
       type: protocols
     values:
       layout: protocol
+
+prose:
+  media: "_images"
+  
+  metadata:
+    _protocols:
+      - name: "title"
+        field:
+          element: "text"
+          label: "Protocol title"
+    _protocols:
+      - name: "body_part"
+        field:
+          element: "select"
+          label: "Body Area"
+          help: "Choose body area to categorise protocol"
+          options:
+            - name: "Hand & Wrist"
+              value: "hand & wrist"
+            - name: "Elbow"
+              value: "elbow"
+            - name: "Shoulder"
+              value: "shoulder"
+            - name: "Spine"
+              value: "spine"
+            - name: "Pelvis"
+              value: "pelvis"
+            - name: "Knee"
+              value: "knee"
+            - name: "Foot & Ankle"
+              value: "foot & ankle"
+            - name: "Other"
+              value: "other"
+       
