@@ -36,5 +36,6 @@ published: true
 
 #### Reconstructions
 
-| Base sequence					| Plane								|
+| Base sequence					| Plane										|
+|---							|---										|
 | T2 GR TRUFISP Sagittal		| Radial centred on femoral head (see diagram) |
