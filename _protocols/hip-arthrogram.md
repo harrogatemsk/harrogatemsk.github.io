@@ -2,6 +2,7 @@
 title: Hip Arthrogram
 layout: protocol
 body_part: pelvis
+published: true
 ---
 
 ### Indications
@@ -22,4 +23,18 @@ body_part: pelvis
 
 ### MRI Scan
 - Patient positioned supine in centre of MR table
-- Body coil placed around injected hip
+- Body coil placed around injected hip as closely applied to skin as possible
+- Patients foot and patella must point towards ceiling to orientate hip correctly
+
+| Sequence						|	TE / TR			|	Slice / Gap / Matrix		|
+|---							|---				|---							|
+| PD SE Axial to femoral neck	| 40 / 2500			| 4mm / 0.5mm / ???				|
+| PD SE Coronal 				| 40 / 2500			| 4mm / 0.5mm / ???				|
+| PDFS SE Coronal				| 40 / 2500			| 4mm / 0.5mm / ???				|
+| PDFS SE Sagittal Oblique		| 40 / 2700			| 4mm / 0.5mm / ???				|
+| T2 GR TRUFISP Sagittal		| 5.3 / 12			| 0.7mm / 0 / ???				|
+
+#### Reconstructions
+
+| Base sequence					| Plane								|
+| T2 GR TRUFISP Sagittal		| Radial centred on femoral head (see diagram) |
