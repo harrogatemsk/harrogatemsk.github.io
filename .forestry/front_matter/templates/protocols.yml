@@ -1,0 +1,50 @@
+---
+pages:
+- _protocols/wrist-arthrogram.md
+- _protocols/standard-wrist.md
+- _protocols/standard-knee.md
+- _protocols/standard-hip.md
+- _protocols/standard-elbow.md
+- _protocols/scaphoid.md
+- _protocols/lumbar-spine.md
+- _protocols/hip-arthrogram.md
+- _protocols/elbow-arthrogram.md
+- _protocols/cervical-spine.md
+- _protocols/FABS-elbow.md
+hide_body: false
+fields:
+- name: title
+  label: Title
+  type: text
+  hidden: false
+  default: ''
+- name: body_part
+  label: Body part
+  type: text
+  hidden: false
+  default: ''
+- name: date
+  label: Date
+  type: datetime
+  hidden: false
+  default: ''
+- name: description
+  label: Description
+  type: text
+  hidden: false
+  default: ''
+- name: published
+  label: Published
+  type: boolean
+  hidden: false
+  default: ''
+- name: layout
+  label: Layout
+  type: text
+  hidden: false
+  default: protocol
+- name: desciption
+  label: Desciption
+  type: text
+  hidden: false
+  default: ''
