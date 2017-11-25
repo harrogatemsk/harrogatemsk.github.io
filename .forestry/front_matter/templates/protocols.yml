@@ -1,9 +1,9 @@
 ---
 pages:
+- _protocols/standard-wrist.md
 - _protocols/lumbar-spine.md
 - _protocols/cervical-spine.md
 - _protocols/wrist-arthrogram.md
-- _protocols/standard-wrist.md
 - _protocols/standard-knee.md
 - _protocols/standard-hip.md
 - _protocols/standard-elbow.md
