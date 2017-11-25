@@ -4,7 +4,7 @@ body_part: spine
 description: Cervical spine MRI protocols including post-operative, trauma and infection
   variations
 date: 2017-11-24 17:25:54 +0000
-published: false
+published: true
 layout: protocol
 desciption: ''
 ---
