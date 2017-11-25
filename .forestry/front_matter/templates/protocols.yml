@@ -1,5 +1,6 @@
 ---
 pages:
+- _protocols/cervical-spine.md
 - _protocols/wrist-arthrogram.md
 - _protocols/standard-wrist.md
 - _protocols/standard-knee.md
@@ -9,7 +10,6 @@ pages:
 - _protocols/lumbar-spine.md
 - _protocols/hip-arthrogram.md
 - _protocols/elbow-arthrogram.md
-- _protocols/cervical-spine.md
 - _protocols/FABS-elbow.md
 hide_body: false
 fields:
