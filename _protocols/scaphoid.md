@@ -3,6 +3,9 @@ title: Scaphoid fracture
 body_part: hand & wrist
 description: Fast limited scaphoid MRI protocol for the detection of fracture
 published: true
+date: 2017-11-24 17:25:54 +0000
+layout: protocol
+desciption: ''
 ---
 This specialist, very fast limited scan can be used as 2nd or 3rd line imaging for suspected scaphoid fracture. It is a single plane, low detail scan which aims to detect bone marrow oedema and show a fracture line.
 
@@ -13,10 +16,10 @@ It needs to be carefully used, with education of referrers to understand that th
 - High resolution hand / wrist coil if available
 - 10-minute turnaround
 
-| Sequence        | TE / TR / TI        | Slice / Gap / Matrix      |
-|---              |---                  |---                        |
-| T2 STIR Coronal | 50 / 4000 / 160ms   | 3.5mm / 0.4mm / 120 x 120 |
-| T1 Coronal      | 10/ 300             | 3.5mm / 0.4mm / 120 x 120 |
+| Sequence        |
+|---              |
+| T2 STIR Coronal |
+| T1 Coronal      |
 
 #### What if I see some other pathology?
 For this study it is **not** recommended that you carry out additional adhoc sequences because:
