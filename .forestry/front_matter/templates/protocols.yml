@@ -53,6 +53,6 @@ fields:
   config:
     source:
       type: pages
-      section: posts
+      section: protocols
   label: Similar Protocols
   description: Select similar protocols to link this one to
