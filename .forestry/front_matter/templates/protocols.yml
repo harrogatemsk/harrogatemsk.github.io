@@ -56,3 +56,6 @@ fields:
     source:
       type: pages
       section: protocols
+- type: field_group_list
+  name: linked_protocols
+  label: Linked protocols
