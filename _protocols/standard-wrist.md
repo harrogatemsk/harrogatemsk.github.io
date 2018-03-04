@@ -11,6 +11,9 @@ other_protocols:
 - _protocols/wrist-arthrogram.md
 - _protocols/elbow-arthrogram.md
 - _protocols/FABS-elbow.md
+linked_protocols:
+- protocol: _protocols/wrist-arthrogram.md
+- protocol: _protocols/scaphoid.md
 ---
 ### **Indications**
 
