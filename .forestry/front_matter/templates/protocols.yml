@@ -48,11 +48,11 @@ fields:
   type: text
   hidden: false
   default: ''
-- type: select
-  name: similar_protocols
+- type: list
+  name: other_protocols
+  label: Other Protocols
   config:
+    use_select: true
     source:
       type: pages
       section: protocols
-  label: Similar Protocols
-  description: Select similar protocols to link this one to
