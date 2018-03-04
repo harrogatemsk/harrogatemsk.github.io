@@ -9,9 +9,6 @@ desciption: ''
 similar_protocols: 
 other_protocols:
 - _protocols/wrist-arthrogram.md
-linked_protocols:
-- protocol: _protocols/wrist-arthrogram.md
-- protocol: _protocols/scaphoid.md
 ---
 ### **Indications**
 
