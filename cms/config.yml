@@ -9,4 +9,10 @@ collections:
     label: "Protocol"
     folder: "_protocols"
     create: true
-    slug: {{year}}-{{month}}-{{day}}-{{slug}}
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - {label: "Layout", name: "layout", widget: "hidden", default: "protocol"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Body Part", name: "body_part", widget: "string"}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Content", name: "content", widget: "markdown"}
