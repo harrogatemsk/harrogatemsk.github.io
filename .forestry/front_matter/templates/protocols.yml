@@ -46,15 +46,16 @@ fields:
       type: pages
       section: protocols
 pages:
-- _protocols/dynamic-patellofemoral-tracking.md
-- _protocols/wrist-arthrogram.md
-- _protocols/standard-knee.md
-- _protocols/standard-hip.md
-- _protocols/hip-arthrogram.md
-- _protocols/standard-wrist.md
 - _protocols/scaphoid.md
-- _protocols/lumbar-spine.md
+- _protocols/standard-wrist.md
 - _protocols/cervical-spine.md
+- _protocols/2017-08-31-knee-with-patellar-tracking.md
+- _protocols/lumbar-spine.md
+- _protocols/standard-knee.md
 - _protocols/standard-elbow.md
 - _protocols/elbow-arthrogram.md
+- _protocols/standard-hip.md
+- _protocols/dynamic-patellofemoral-tracking.md
+- _protocols/wrist-arthrogram.md
+- _protocols/hip-arthrogram.md
 - _protocols/FABS-elbow.md

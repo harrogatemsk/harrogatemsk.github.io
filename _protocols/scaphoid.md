@@ -6,6 +6,8 @@ published: true
 date: 2017-11-24 17:25:54 +0000
 layout: protocol
 desciption: ''
+other_protocols:
+- _protocols/standard-wrist.md
 ---
 This specialist, very fast limited scan can be used as 2nd or 3rd line imaging for suspected scaphoid fracture. It is a single plane, low detail scan which aims to detect bone marrow oedema and show a fracture line.
 
