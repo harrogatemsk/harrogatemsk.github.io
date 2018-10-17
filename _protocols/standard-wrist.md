@@ -34,15 +34,15 @@ Standard wrist MRI has a wide range of applications, finding use in the assessme
 
 * FOV to cover from 2cm proximal to wrist joint line _to_ bases of metacarpals
 * High resolution hand and wrist coil
-* Slice thickness 2.5mm with 10% gap
 
-| Sequence			|
-|---				|
-| PD Coronal		|
-| PDFS Coronal		|
-| PD Axial			|
-| T2FS Axial		|
-| PDFS Sagittal		|
+| Sequence						|	TE / TR			|	Slice / Gap / Matrix		| Other |
+|---							|---				|---							|---    |
+| PD SE Axial	| 29 / 2800			| 3mm / 0.4mm / 270x384				| Avg2 GRAPPA 2  |
+| T2FS SE Axial	| 50 / 3500			| 3mm / 0.4mm / 270x384				| Weak FS, Avg2 GRAPPA 2  |
+| PD SE Coronal	| 35 / 2500			| 3mm / 0.4mm / 512x333				| Avg2 GRAPPA 2  |
+| T2 TRUFISP Coronal	| 5.25 / 11.78			| 3mm / 0.4mm / 384 x 334				| Avg2  |
+| PDFS SE Sagittal	| 35 / 2500			| 3mm / 0.4mm / 192x320				| Avg3 |
+
 
 If struggling with homogeneity of fat saturation _especially_ when scanning with hand by side, consider alternative sequences
 
