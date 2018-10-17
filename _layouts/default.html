@@ -2,12 +2,12 @@
 <html>
 <head>
 	<meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=1">
     {% seo %}
 	<link href="{{ base.url }}/assets/css/style.css" rel="stylesheet">
 </head>
 <body>
-<header>
+<header class="print-hidden">
   <div class="container">
 	<h1 class="leading">{{ site.organisation }}</h1>
 	<h1><a href="{{ base.url }}/">{{ site.title }}</a></h1>
@@ -19,7 +19,7 @@
   
 <div class="container">
 	{% if page.url != "/" %}
-	<ul class="breadcrumbs">
+	<ul class="breadcrumbs print-hidden">
 			<li><a href="{{ base.url }}/">{{ page.collection | capitalize }}</a></li>
 			<li> / {{ page.title }}</li>
 	</ul>
