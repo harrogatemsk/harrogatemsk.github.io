@@ -27,7 +27,13 @@ other_protocols: []
 * Body flex coil tightly applied over pelvis (ASIS is top landmark)
 * FOV to cover entire width of pelvis
 
-| Sequence						| Comments	| | PD Axial						| ASIS to bottom of inferior pubic rami	| | T1 Coronal					| Standard pelvic coronal plane	| | STIR Coronal					| Standard pelvic coronal plane	| | PDFS Coronal Oblique			| Angled to pelvic outlet  | TRUFISP realtime dynamic axial cine (2cm thick)	| Slice selected from axial study to cover level of superficial inguinal ring. Patient instructed to Valsalva strain for 2s and hold as sequence begins. Repeat 3 times	|
+| Sequence						| Comments	| 
+|---                  |           |
+| PD Axial						| ASIS to bottom of inferior pubic rami	| 
+| T1 Coronal					| Standard pelvic coronal plane	|
+| STIR Coronal					| Standard pelvic coronal plane	| 
+| PDFS Coronal Oblique			| Angled to pelvic outlet  | 
+| TRUFISP realtime dynamic axial cine (2cm thick)	| Slice selected from axial study to cover level of superficial inguinal ring. Patient instructed to Valsalva strain for 2s and hold as sequence begins. Repeat 3 times	|
 
 ### Challenges
 
