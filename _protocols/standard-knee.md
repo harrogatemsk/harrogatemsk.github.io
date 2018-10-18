@@ -19,11 +19,11 @@ Knee either fully extended or 5 degrees flexed for comfort. The patella must poi
 
 | Sequence						|	TE / TR			|	Slice / Gap / Matrix		| Other |
 |---							|---				|---							|---    |
-| PDFS Axial	| 32 / 3300			| 3mm / 0.5mm / 270x384				| Weak FS, Avg1 GRAPPA 2  |
-| PD Sagittal Oblique | 32 / 3300     | 3mm / 0.4mm / 384 x 512     | Avg1 GRAPPA 2 |
-| PDFS Sagittal Oblique	| 32 / 3300			| 3mm / 0.5mm / 384 x 512				| Weak FS, Avg1 GRAPPA 2  |
-| T2FS Coronal	| 40 / 4000			| 3mm / 0.5mm / 270x384				| Weak FS, Avg1 GRAPPA 2  |
-| PDFS Coronal	| 20 / 2500			| 3mm / 0.5mm / 270x384				| Avg1 GRAPPA 2  |
+| PDFS Axial	| 32 / 3300			| 3mm / 0.5mm / 270x384				| Weak FS, Avg1 GRAPPA 2, Interpolate  |
+| PD Sagittal Oblique | 32 / 3300     | 3mm / 0.4mm / 384 x 512     | Avg1 GRAPPA 2, Interpolate |
+| PDFS Sagittal Oblique	| 32 / 3300			| 3mm / 0.5mm / 384 x 512				| Weak FS, Avg1 GRAPPA 2, Interpolate  |
+| T2FS Coronal	| 40 / 4000			| 3mm / 0.5mm / 270x384				| Weak FS, Avg1 GRAPPA 2, Interpolate  |
+| PDFS Coronal	| 20 / 2500			| 3mm / 0.5mm / 270x384				| Avg1 GRAPPA 2, Interpolate  |
 
 ## Variants
 
