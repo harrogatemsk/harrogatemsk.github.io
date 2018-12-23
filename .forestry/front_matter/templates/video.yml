@@ -1,0 +1,48 @@
+---
+label: Video
+hide_body: false
+is_partial: false
+fields:
+- type: text
+  name: title
+  label: Title
+  description: Clear concise title that works well for search
+  config:
+    required: true
+- type: boolean
+  name: draft
+  label: Draft
+  description: Draft cases are not yet published live to the site
+- type: textarea
+  name: description
+  label: Description
+  description: The body text of the case, add description, case notes and links to
+    other relevant cases here
+- type: boolean
+  name: premium
+  label: Premium
+  description: Is this is a paid (premium) or free case?
+  default: false
+- type: select
+  name: speciality
+  config:
+    source:
+      type: simple
+    required: true
+    options:
+    - musculoskeletal
+    - neuro head & neck
+    - chest
+    - breast
+    - paediatric
+    - gastrointestinal
+    - genitourinary
+    - FRCR
+  label: Speciality
+  default: musculoskeletal
+- type: file
+  name: video
+  label: Video
+  description: Upload case video
+  config:
+    maxSize: '500'
