@@ -1,7 +1,7 @@
 ---
-title: Standard Knee with variants
-body_part: knee
-description: Standard knee MRI protocol
+title: Standard Ankle with variants
+body_part: ankle
+description: Standard Ankle MRI protocol
 
 ---
 The standard ankle MR protocol covers from the tarsometatarsal joints to the Achilles tendon and is an excellent general purpose tool for ankle pain. It is the gold standard method to assess
