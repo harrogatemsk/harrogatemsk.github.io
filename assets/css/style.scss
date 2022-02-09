@@ -47,7 +47,7 @@ html {font-size: 10px;}
 body {
 	font-family: 'Work Sans', Helvetica, Arial, sans-serif;
 	font-size: 1.8em;
-	line-height: 1.45em;
+	line-height: 1.6em;
 	color: $black;
 	margin: 0;
 	background-color: $light_color;
@@ -55,7 +55,7 @@ body {
 
 .container {
 	max-width: 1000px;
-	padding: 1em 3.5%;
+	padding: 2em 3.5%;
 	margin: 0 auto;
 }
 
@@ -110,13 +110,13 @@ code {
 
 #site-description {
 	opacity: 0.75;
-    font-size: 1.125em;
+    	font-size: 1.125em;
 	line-height: 1.5em;
-    margin-bottom: 1%;
+    	margin-bottom: 1%;
 }
 
 header {
-		background-color: $dark_color;
+	background-color: $dark_color;
         color: $light_color;
         width: 100%;
     }
@@ -132,9 +132,11 @@ header a:hover { color: rgba($light_color, 0.9); text-decoration: underline; }
 
 footer {
 	border-top: 4px solid rgba($dark_color,0.25);
-	padding: 0.25em;
+	padding: 0.5em;
 	margin-top: 2%;
-    color: #888;
+    	color: #888;
+	display: flex;
+	justify-content: space-between;
 }
 
 ul.breadcrumbs { 
