@@ -87,6 +87,8 @@ small, .font_small {font-size: 0.8em;}
 a { color: $dark_color }
 a:hover { color: darken($dark_color, 20); text-decoration: none; }
 
+img { width: 100% }
+
 .leading { 
 	font-size:  1.125em; 
 	opacity: 0.6;
