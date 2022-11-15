@@ -1,10 +1,10 @@
 ---
 layout: protocol
-title: Sports Groin with Dynamic Herniography
+title: Sports Groin
 date: 2018-10-17 15:08:02 +0100
 body_part: pelvis
 description: Versatile anterior groin pain protocol covering strain injuries and hernias
-  with dynamic stress sequences to increase sensitivity to hernia
+  with option of dynamic stress sequences to increase sensitivity to hernia
 published: true
 other_protocols: []
 
@@ -15,7 +15,7 @@ other_protocols: []
 * Anterior groin pain / inner thigh pain
 * Sports injury to anterior groin / pelvic ring
 * Symphysis pubis pathologies
-* Sportsman's hernia
+* Sports hernia / Adductor origin injury
 
 ### Positioning
 
@@ -23,19 +23,17 @@ other_protocols: []
 
 ### Scan
 
-* Body flex coil tightly applied over pelvis (ASIS is top landmark)
-* FOV to cover entire width of pelvis
+* Low centered pelvis and upper thighs
 
 | Sequence						| Comments	| 
 |---                  |           |
-| PD Axial						| ASIS to bottom of inferior pubic rami	| 
-| T1 Coronal					| Standard pelvic coronal plane	|
-| STIR Coronal					| Standard pelvic coronal plane	| 
-| PDFS Coronal Oblique			| Angled to pelvic outlet  | 
-| TRUFISP realtime dynamic axial cine (2cm thick)	| Slice selected from axial study to cover level of superficial inguinal ring. Patient instructed to Valsalva strain for 2s and hold as sequence begins. Repeat 3 times	|
+| PDFS Axial						| Inguinal canals and upper thighs	| 
+| T1 Coronal					| Standard pelvic coronal plane, centre on symphysis pubis	|
+| STIR Coronal					| As above, lower centring than usual hip scan	| 
+| PDFS Coronal Oblique			| Angled to pelvic outlet  |
+| PDFS Sagittal | Cover hip to hip, crossing symphysis pubis as centre point (middle of FOV) |
 
 ### Challenges
 
 * **Tilting correctly for the Coronal Oblique** is best achieved with a sagittal planning sequence to take an angle between the ASIS and the symphysis pubis
-* **Selecting the correct slice to cine scan** is perceived as challenging to some inexperienced radiographers. Staff education on how to identify the superficial inguinal ring and the course of the inguinal canal on MR helps.
-* **Interpretation** should be carried out by an experienced subspecialist with an understanding of groin anatomy, hernia pathogenesis and experience reading dynamic examinations.
+* **Region of interest** is different to normal hip scan. Make sure that the symphysis pubis is the centre point level for ML and CC FOV. Ensure that some of the upper thigh is included in the scan to judge muscle sprain, especially on the sagittal image
