@@ -22,3 +22,8 @@ to detect osteoarthritis and joint effusions.
 | T1 coronal oblique (each joint) 	|
 | PDFS coronal oblique (each joint) 	|
 
+### Images
+![Axial Localiser showing sagittal oblique plane](/assets/img/showing PDFS plane.png)
+![Axial Localiser](/assets/img/axial - localiser.png)
+![PD open and closed mouth sagittal oblique plane](/assets/img/PD sagittal oblique - closed and open.png)
+![T1 and PDFS coronal oblique plane](/assets/img/t1-pdfs coronals.png)
