@@ -1,5 +1,5 @@
 ---
-title: Temporomandicular Joints
+title: Temporomandibular Joints
 body_part: head & neck
 description: Dynamic TMJ protocol
 date: 2022-11-21 10:25:54 +0000
